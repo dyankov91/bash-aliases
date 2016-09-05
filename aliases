@@ -1,0 +1,17 @@
+# Load Generic Aliases
+# -----------------------------------------------
+if [ -f generic-aliases ]; then
+    . generic-aliases
+fi
+
+# Load Git Aliases
+# -----------------------------------------------
+if [ -f git-aliases ]; then
+    . git-aliases
+fi
+
+# Load User Specific Aliases (.gitignored)
+# -----------------------------------------------
+if [ -f user-aliases ]; then
+    . user-aliases
+fi

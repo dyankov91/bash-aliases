@@ -1,0 +1,9 @@
+# Generic
+alias ll='ls -alGhp'
+alias ls='ls -Ghp'
+alias h='cd ~'
+alias c='clear'
+alias ..='cd ..'
+alias du='du -mh'
+alias path='echo -e ${PATH//:/\\n}'
+alias numFiles='echo $(ls -1 | wc -l)'
