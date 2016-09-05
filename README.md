@@ -3,7 +3,7 @@ Categories easy to use bash aliases
 
 # Usage
 
-* Download the package using git. 
+* Download the package and place it inside `~/.bash` folder in your home.
 
 * Link it inside your .bashrc (.bash_profile) file.
 
