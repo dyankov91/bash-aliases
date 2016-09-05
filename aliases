@@ -1,17 +1,17 @@
 # Load Generic Aliases
 # -----------------------------------------------
-if [ -f generic-aliases ]; then
-    . generic-aliases
+if [ -f ~/.bash/generic-aliases ]; then
+    . ~/.bash/generic-aliases
 fi
 
 # Load Git Aliases
 # -----------------------------------------------
-if [ -f git-aliases ]; then
-    . git-aliases
+if [ -f ~/.bash/git-aliases ]; then
+    . ~/.bash/git-aliases
 fi
 
 # Load User Specific Aliases (.gitignored)
 # -----------------------------------------------
-if [ -f user-aliases ]; then
-    . user-aliases
+if [ -f ~/.bash/user-aliases ]; then
+    . ~/.bash/user-aliases
 fi
