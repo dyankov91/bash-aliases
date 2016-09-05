@@ -5,6 +5,10 @@ Categories easy to use bash aliases
 
 * Download the package and place it inside `~/.bash` folder in your home.
 
+```bash
+$ git clone https://github.com/dyankov91/bash-aliases.git ~/.bash
+```
+
 * Link it inside your .bashrc (.bash_profile) file.
 
 ```bash
