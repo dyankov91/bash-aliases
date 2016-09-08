@@ -10,6 +10,12 @@ if [ -f ~/.bash/git-aliases ]; then
     . ~/.bash/git-aliases
 fi
 
+# Load Laravel Aliases
+# -----------------------------------------------
+if [ -f ~/.bash/laravel-aliases ]; then
+    . ~/.bash/laravel-aliases
+fi
+
 # Load User Specific Aliases (.gitignored)
 # -----------------------------------------------
 if [ -f ~/.bash/user-aliases ]; then
