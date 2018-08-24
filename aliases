@@ -16,6 +16,12 @@ if [ -f ~/.bash/laravel-aliases ]; then
     . ~/.bash/laravel-aliases
 fi
 
+# Load Docker Aliases
+# -----------------------------------------------
+if [ -f ~/.bash/docker-aliases ]; then
+    . ~/.bash/docker-aliases
+fi
+
 # Load User Specific Aliases (.gitignored)
 # -----------------------------------------------
 if [ -f ~/.bash/user-aliases ]; then
