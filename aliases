@@ -1,29 +1,29 @@
 # Load Generic Aliases
 # -----------------------------------------------
-if [ -f ~/.bash/generic-aliases ]; then
-    . ~/.bash/generic-aliases
+if [ -f ~/.sh/generic-aliases ]; then
+    . ~/.sh/generic-aliases
 fi
 
 # Load Git Aliases
 # -----------------------------------------------
-if [ -f ~/.bash/git-aliases ]; then
-    . ~/.bash/git-aliases
+if [ -f ~/.sh/git-aliases ]; then
+    . ~/.sh/git-aliases
 fi
 
 # Load Laravel Aliases
 # -----------------------------------------------
-if [ -f ~/.bash/laravel-aliases ]; then
-    . ~/.bash/laravel-aliases
+if [ -f ~/.sh/laravel-aliases ]; then
+    . ~/.sh/laravel-aliases
 fi
 
 # Load Docker Aliases
 # -----------------------------------------------
-if [ -f ~/.bash/docker-aliases ]; then
-    . ~/.bash/docker-aliases
+if [ -f ~/.sh/docker-aliases ]; then
+    . ~/.sh/docker-aliases
 fi
 
 # Load User Specific Aliases (.gitignored)
 # -----------------------------------------------
-if [ -f ~/.bash/user-aliases ]; then
-    . ~/.bash/user-aliases
+if [ -f ~/.sh/user-aliases ]; then
+    . ~/.sh/user-aliases
 fi
