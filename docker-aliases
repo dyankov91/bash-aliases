@@ -5,7 +5,7 @@ function dsh(){
 alias dps='docker ps'
 alias dcps='docker-compose ps'
 alias di='docker images'
-alias dup='docker-compose up -d'
+alias dcu='docker-compose up -d'
 alias dcs='docker-compose stop'
 alias dcd='docker-compose down'
 alias dce='docker-compose exec'
