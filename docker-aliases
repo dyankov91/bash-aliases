@@ -2,10 +2,10 @@ function dsh(){
     docker exec -it "$1" sh
 }
 
-alias dps='docker ps'
 alias dcps='docker-compose ps'
 alias di='docker images'
 alias dcu='docker-compose up -d'
-alias dcs='docker-compose stop'
 alias dcd='docker-compose down'
 alias dce='docker-compose exec'
+alias dcr='docker-compose restart'
+alias dcl='docker-compose logs -f'
