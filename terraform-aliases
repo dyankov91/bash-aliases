@@ -1,0 +1,4 @@
+alias tfpo='terraform plan -out="terraform.tfplan"'
+alias tfap='terraform apply "terraform.tfplan"'
+alias tff='terraform fmt'
+alias tfv='terraform validate'

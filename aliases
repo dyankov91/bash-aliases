@@ -22,6 +22,12 @@ if [ -f ~/.sh/docker-aliases ]; then
     . ~/.sh/docker-aliases
 fi
 
+# Load Terraform Aliases
+# -----------------------------------------------
+if [ -f ~/.sh/terraform-aliases ]; then
+    . ~/.sh/terraform-aliases
+fi
+
 # Load User Specific Aliases (.gitignored)
 # -----------------------------------------------
 if [ -f ~/.sh/user-aliases ]; then
